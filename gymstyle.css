@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* whole page black */
+    color: #e5e7eb; /* light text */
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #0f172a;
+}
+
+nav .logo {
+    color: #38bdf8;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #38bdf8;
+}
+
+.boxzero { 
+    background-color: #e6e9f8;
+    padding: 20px;
+    margin: 20px auto;
+    width: 85%;
+    border-radius: 8px;
+    color: #020617;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #020617, #0f172a);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #cbd5f5;
+}
+
+/* Buttons */
+.btn {
+    background-color: #38bdf8;
+    color: #020617;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0ea5e9;
+}
+
+
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #020617;
+    color: #e5e7eb;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+/* How It Works */
+.how-it-works {
+    padding: 60px 20px;
+    background-color: #020617;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+.steps2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #111827;
+    color: #e5e7eb;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 325px;
+    margin-right: 325px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+.step {
+    background-color: #111827;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+.step h3 {
+    color: #38bdf8;
+}
+
+.logo {
+    width: 15px; 
+    height: 15px;
+}
+
+input { 
+    padding: 10px;
+    width: 250px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+select { 
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+input[type="checkbox"] {
+    margin: 0; 
+    padding: 0;
+
+}
+
+/* .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-self: flex-start;
+} */
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* 🔥 forces left */
+  gap: 5px;
+  width: 100%;
+}
+
+
+.daterow {
+    display: flex;
+    gap: 10px;
+}
+
+.cta {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #0f172a;
+    color: white;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #020617;
+    color: #9ca3af;
+}
+/* Page headings */
+h1 {
+    text-align: center;
+    color: #38bdf8;
+    margin-top: 40px;
+}
+
+h2 {
+    color: #38bdf8;
+    margin-top: 40px;
+}
+
+/* Paragraph styling */
+p {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    color: #d1d5db;
+}
+
+/* Tables */
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #111827;
+}
+
+
+th {
+    background-color: #0f172a;
+    color: #38bdf8;
+    padding: 12px;
+}
+
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #374151;
+    color: #e5e7eb;
+}
+
+
+tr:hover {
+    background-color: #1f2937;
+}
+
+ul {
+    width: 60%;
+    margin: 30px auto;
+    color: #e5e7eb;
+    line-height: 1.8;
+}
+
+/* Horizontal line */
+hr {
+    border: 1px solid #1f2937;
+    width: 60%;
+    margin: 40px auto;
+}

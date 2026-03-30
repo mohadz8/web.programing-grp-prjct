@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questions</title>
+    <link rel="stylesheet" href="../static/gymstyle.css">
+</head>
+<body>
+    <br>
+    <h1>Choose Your Preferences</h1>
+    <h2><center>Let us know what you're interested in! So we can personalize your experience.</center></h2>
+    <br> 
+    <br> 
+
+    <section class="signup">
+        <div class="steps2">
+                
+                <form method="post" action="/selectmembership">
+                        <h3><label for="prefertime">What is your preferred time to work out?</label></h3>
+                        <select id="prefertime" name="prefertime" required>
+                            <option value="">Select a time</option>
+                            <option value="pt0">No, I'll pass</option>
+                            <option value="pt1">I want to try out first</option>
+                            <option value="pt2">10 am - 12 pm & 2 pm - 4 pm</option>
+                            <option value="pt3">12 - 2 pm & 8 - 11 pm</option>
+                            <option value="pt4">Anytime</option> </select>
+
+                        <br><br>
+
+                        <h3><label for="preferswim">Would you like to use the swimming pool?</label></h3>
+                        <select id="preferswim" name="preferswim" required>
+                            <option value="">Select an option</option>
+                            <option value="ps1">Yes</option>
+                            <option value="ps2">No</option> </select>
+
+                            <br><br>
+
+                        <h3><label for="preferclass">Would you like to join any fitness classes?</label></h3>
+                        <select id="preferclass" name="preferclass" required>
+                            <option value="">Select an option</option>
+                            <option value="pc1">Yes</option>
+                            <option value="pc2">No</option> </select>
+
+                            <br><br>
+                            
+                        <h3><label for="prefermassage">Would you like to join massage therapy sessions?</label></h3>
+                        <select id="prefermassage" name="prefermassage" required>
+                            <option value="">Select an option</option>
+                            <option value="pm1">Yes</option>
+                            <option value="pm2">No</option> </select>
+
+                            <br><br>
+                        
+                        <h3><label for="preferphysio">Would you like to join physiotherapy sessions?</label></h3>
+                        <select id="preferphysio" name="preferphysio" required>
+                            <option value="">Select an option</option>
+                            <option value="pp1">Yes</option>
+                            <option value="pp2">No</option> </select>
+
+                            <br><br>
+
+                        <h3><label for="student">Are you a student?</label></h3>
+                        <select id="student" name="student" required>
+                            <option value="">Select an option</option>
+                            <option value="s1">Yes</option>
+                            <option value="s2">No</option> </select>
+
+                            <h3><br><br></h3>
+
+                        <center><button type="submit" class="btn">See your personalized recommendations!</button> </center>
+                        <h3> <br><br></h3>
+
+                </form>
+            
+        </div>
+    </section>
+    <br><br> <br><br> <br><br> 
+
+     <footer>
+        <p>©️ 2026 GymCompare | Web Programming IY470</p>
+    </footer>
+
+
+</body>
+
+</html>
